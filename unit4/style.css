@@ -2,16 +2,21 @@
 body {
 	background-color:#FFFFFF;
 }
-img.center {
+img {
 	display: block;
-	text-align: center;
 	margin: 0 auto;
+
+}
+h1, h3, h4 {
+	font-family: 'Lora', serif;
 }
 h1 {
 	font-size: 50px;
 	text-align: center;
-	text-decoration: underline;
 	font-family: 'Lora', serif;
+	border-bottom:4px solid black;
+	display: inline-block;
+
 }
 #slogan {
 	font-size: 20px;
@@ -26,4 +31,15 @@ h2{
 p{
 	font-size: 16px;
 	text-align: center;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer{
+	text-align: center;
+	padding: 1em 0;
 }
