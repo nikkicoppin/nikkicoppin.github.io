@@ -1,23 +1,30 @@
 
 body {
 	background-color:#FFFFFF;
+	font-family: 'Lora', serif;
 }
 img {
 	display: block;
 	margin: 0 auto;
 
 }
-h1, h3, h4 {
+h3, h4 {
 	font-family: 'Lora', serif;
 }
-h1 {
-	font-size: 50px;
-	text-align: center;
-	font-family: 'Lora', serif;
-	border-bottom:4px solid black;
-	display: inline-block;
+
+nav {
+	 font-size: 1.8em;
+	 float: none;
 
 }
+nav a {
+	text-decoration: none;
+	color:#000000;
+	margin: 1.8m;
+	display: inline-block;
+	padding: 20px;
+}
+
 #slogan {
 	font-size: 20px;
 	text-align: center;
