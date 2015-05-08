@@ -81,15 +81,45 @@ a:hover, a:active {
 color: #55BF74;
 }
 
-h3{
-text-decoration: underline;
-font-size: 36px;
+#container{
+	width: 1200px;
+	margin: 0 auto;}
+
+#signup {
+color:#FFFFFF;
+float:right;
+font-size: 1.2em;
 text-align: center;
-letter-spacing: 5px;
+background-color:#656565;
+width: 500px;
+height: 80px;
+}
+
+#howto {
+	float: right;
+	background-color: #FFFFFF;
+	border: 1.5px solid black;
+	width: 500px;
+}
+
+#ingrediants{
+	float:left;
+	font-size: 1.2em;
+	text-align: center;
+	font-size: 36px;
+	letter-spacing: 4px;
+	width: 500px;
+	text-decoration: underline;
+}
+
+#foodlist{
+width:400px;
+float: left;
+}
+
+ul{
+float: left;
 }
 
 
-#blog{
-	float: left;
-	padding-left: 25px;
-}
+
