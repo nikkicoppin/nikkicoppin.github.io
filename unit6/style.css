@@ -5,45 +5,63 @@ body {
 	font-family: 'Lora', serif;
 }
 
-#screen{
-	min-height:1200px; 
-	min-width:1200px;
-	width:100vw;
-	height: 100vh;
+#layout{
+	position: relative;
+	padding: 0;
+}
+
+#layout {
+    position: relative;
+    padding-left: 0;
+}
+    #layout.active #menu {
+        left: 150px;
+        width: 150px;
+    }
+
+    #layout.active .menu-link {
+        left: 150px;
+    }
+#content{
+	width: 100%;
+	margin: auto;
+	position: relative;
 }
 
 
 #banner {
-	height:110px ;
+	height:280px ;
 	width: 100%;
 	background:#6EC36B;
+	text-align: center;
 }
  
 h1 { 
 	letter-spacing: 8px;
 	color: #FFFFFF;
-	font-size: 58px;
+	font-size: 76px;
 	margin: 1.0em;
-	padding-top: 18px;
-	padding-bottom: 18px;
+	padding-top: 110px;
+	padding-bottom: 120px;
 	padding-right: 40px;
 	padding-left: 40px;
 }
 
 h2{
-font-size: 24px;
+font-size: 28px;
 font-style: italic;
 text-align: center;
 text-transform: italic;
 
 
 }
-nav{
-font-size: 1.2em;
-margin:0 auto;
+#nav{
+font-size: 1.4em;
+position: relative;
+margin: 0 auto;
 font-weight: bold;
 color:#656565;
-margin:0 auto;
+
 }
 
 nav a {
