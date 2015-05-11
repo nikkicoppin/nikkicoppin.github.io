@@ -5,23 +5,11 @@ body {
 	font-family: 'Lora', serif;
 }
 
-#layout{
-	position: relative;
+#container{
+	width: 1500px;
 	padding: 0;
 }
 
-#layout {
-    position: relative;
-    padding-left: 0;
-}
-    #layout.active #menu {
-        left: 150px;
-        width: 150px;
-    }
-
-    #layout.active .menu-link {
-        left: 150px;
-    }
 #content{
 	width: 100%;
 	margin: auto;
@@ -34,6 +22,7 @@ body {
 	width: 100%;
 	background:#6EC36B;
 	text-align: center;
+	padding: 0;
 }
  
 h1 { 
