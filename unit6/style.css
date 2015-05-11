@@ -5,9 +5,10 @@ body {
 	font-family: 'Lora', serif;
 }
 
-#content{
-	width: 100%;
-	margin: auto;
+#layout{
+	width: 1200px;
+	margin: 25px;
+	padding: 0;
 	position: relative;
 }
 
@@ -62,6 +63,7 @@ ul {
 	margin: 1.0em;
 	padding: 0;
 	overflow: hidden;
+	text-align: center;
 }
 
 li {
@@ -87,41 +89,19 @@ color: #55BF74;
 	width: 1200px;
 	margin: 0 auto;}
 
+#content{
+	padding:0;
+	margin: 0;
+	float: left;
+
+}
 #signup {
 color:#FFFFFF;
 float:right;
-font-size: 1.2em;
-text-align: center;
-background-color:#656565;
 width: 500px;
-height: 80px;
+margin: auto;
 }
 
-#howto {
-	float: right;
-	background-color: #FFFFFF;
-	border: 1.5px solid black;
-	width: 500px;
-}
-
-#ingrediants{
-	float:left;
-	font-size: 1.2em;
-	text-align: center;
-	font-size: 36px;
-	letter-spacing: 4px;
-	width: 500px;
-	text-decoration: underline;
-}
-
-#foodlist{
-width:400px;
-float: left;
-}
-
-ul{
-float: left;
-}
 
 
 
