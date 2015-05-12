@@ -81,7 +81,7 @@ nav a{
 
 .buttonsign-up a{
 	padding: 5px 20px;
-	background-color: #D6AD33;
+	background-color: #DA6C47;
 	vertical-align: center;
 	color: #ffffff;
 	border: 1px solid #D6AD33;
@@ -90,7 +90,7 @@ nav a{
 }
 
 .buttonsign-up:hover{
-	background-color: #D6AD33;
+	background-color: #DA6C47;
 	color: #ffffff;
 	border: 1px #D6AD33;
 }
