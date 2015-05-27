@@ -5,7 +5,7 @@ body{
 }
 
 #wrapper{
-	width: 100%;
+	background-size: cover;
 	margin: 0 auto;
 	background color: #FFFFFF;
 }
@@ -15,58 +15,61 @@ body{
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: 100%;
-	background-height: 95%;
-	padding-top: 1em;
-	padding-bottom: 7em;
-	padding-left: 1em;
-	padding-right: 1em;
+	background-size: cover;
+	padding-top: 1%;
+	padding-bottom: 7%;
+	padding-left: 1%;
+	padding-right: 1%;
 }
 
 .clearfix:after{
 	display: block;
 	font-size: 0;
 	clear:both;
-	height:0;
+	
 }
 
-.leftmenu{
-	margin: 1%;
-	float: left;
+nav{
+	float:left;
 	display: block;
 	letter-spacing: 0.1em;
-	width: 50%;
+	width: 40%;
+
 }
 
-.leftmenu a{
+nav ul{
+	list-style: none;
+	display: inline;
+}
+
+nav a{
 	color: #FFFFFF;
 	text-decoration: none;
 	font-size: 1.2em;
 	float: left;
-	display: block;
-	padding: 3%;
+	display: inline-block;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+	vertical-align: center;
 }
 
 .rightmenu{
-	margin-left: 3%;
-	margin-right: 5%;
-	margin-top: 3%;
-	margin-bottom: 3%;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 1em;
 	float: right;
 	display: block;
+	padding: 1%;
+
 }
 
 .buttonsubscribe{
-	padding: 15%;
-	border-radius: 1%;
-  	margin-left: 3%;
-  	color: white;
-	margin-right: 3%;
-	margin-top: 3%;
+	padding: 8%;
+	color: white;
 	letter-spacing: 0.1em;
-	margin-bottom: 3%;
-  	border: 3px solid #ffffff;
-  	vertical-align: center;
+  	border: 2px solid #ffffff;
+  	
 }
 
 .buttonsubscribe a{
@@ -106,7 +109,7 @@ h2{
 .explorebutton{
 	text-align: center;
 	display: block;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 	margin-top: 8%
 }
 
@@ -128,8 +131,8 @@ footer{
 	margin: 0 auto;
 	padding-left: 0;
 	padding-right: 0;
-	padding-top: 0.5em;
-	width: 100%;
+	padding-top: 0.5%;
+	width: cover;
 	height: 5%;
 }
 
@@ -203,17 +206,26 @@ ul a{
 	height: 0;
 }
 
+@media only screen and (max-width:1200px){
+	nav{
+		float: none;
+		width: auto;
+	}
 
+	header{
+		text-align: center;
+		height: 50%;
+		margin: 0 auto;
 
+	}
+	h1{
+		padding-top: 1%;
+		font-size: 2em;
+	}
 
+	h2{
+		font-size: 0.8em;
+		margin-bottom: 2%;
+	}
 
-
-
-
-
-
-
-
-
-
-
+}
