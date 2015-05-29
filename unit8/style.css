@@ -205,12 +205,11 @@ ul a{
 @media only screen and (max-width:1200px){
 
 	nav ul{
-		float: none;
+		float: left;
 		display: block;
 		letter-spacing: 0.1em;
 		width: 40%;
 		list-style: none;
-		background-color: black;
 	}
 
 	nav li{
@@ -227,7 +226,6 @@ ul a{
 	}
 
 	.rightmenu{
-		background-color: red;
 		text-decoration: none;
 		font-size: 1em;
 		float: right;
@@ -248,7 +246,6 @@ ul a{
 		text-align: center;
 		height: 50%;
 		margin: 0 auto;
-		background-color: blue;
 	}
 
 	h1{
