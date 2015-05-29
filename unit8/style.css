@@ -25,19 +25,15 @@ body{
 .clearfix:after{
 	display: block;
 	font-size: 0;
-	clear:both;
-	
+	clear:both;	
 }
 
-nav{
+
+nav ul{
 	float:left;
 	display: block;
 	letter-spacing: 0.1em;
 	width: 40%;
-
-}
-
-nav ul{
 	list-style: none;
 	display: inline;
 }
@@ -45,7 +41,7 @@ nav ul{
 nav a{
 	color: #FFFFFF;
 	text-decoration: none;
-	font-size: 1.2em;
+	font-size: 1.6em;
 	float: left;
 	display: inline-block;
 	padding-left: 3%;
@@ -207,25 +203,77 @@ ul a{
 }
 
 @media only screen and (max-width:1200px){
-	nav{
+
+	nav ul{
 		float: none;
-		width: auto;
+		display: block;
+		letter-spacing: 0.1em;
+		width: 40%;
+		list-style: none;
+		background-color: black;
+	}
+
+	nav li{
+		width: 40%;
+	}
+	nav a{
+		display: inline;
+		float: none;
+		padding: left;
+		padding: right;
+		letter-spacing: 0.2em;
+		line-height: 2em;
+		font-size: 1.6em;
+	}
+
+	.rightmenu{
+		background-color: red;
+		text-decoration: none;
+		font-size: 1em;
+		float: right;
+		display: inline;
+		padding: 1%;
+		margin-top: 0%;
+	}
+
+	.buttonsubscribe{
+		margin-top: 0%;  	
+	}
+
+	.buttonsubscribe a{
+		margin-top: 0%
 	}
 
 	header{
 		text-align: center;
 		height: 50%;
 		margin: 0 auto;
-
+		background-color: blue;
 	}
+
 	h1{
-		padding-top: 1%;
-		font-size: 2em;
+		padding-top: 2%;
+		font-size: 3.5em;
 	}
 
 	h2{
-		font-size: 0.8em;
+		font-size: 1.2em;
 		margin-bottom: 2%;
+	}
+
+	.footerlogo a{
+		font-size: 1.5em;
+		line-height: 3em;
+		color: black;
+		padding-left: 10%;
+		text-decoration: none;
+	}
+
+	.footerlogo p{
+		font-size: 0.8em;
+		padding-left: 18%;
+		margin-top: 0%;
+
 	}
 
 }
