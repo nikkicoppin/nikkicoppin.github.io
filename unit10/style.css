@@ -460,14 +460,13 @@ form button{
 		font-size: 4em;
 		margin: 0;
 		padding: 0;
-		line-height: 3em;
+		line-height: 2em;
 		font-weight: 600;
 	}
 	h2{
 		font-size: 1em;
 		margin-bottom: 5%;
 	}
-
 
 .nikki{
 	width: cover;
@@ -639,13 +638,13 @@ form button{
 }
 
 /*second media queries*/
-@media only screen and (min-width: 320px) and (max-width:850px){
+@media only screen and (min-width: 550px) and (max-width:850px){
 	
 	h1{
 		font-size: 3em;
 		margin: 0;
 		padding: 0;
-		line-height: 2.5em;
+		line-height: 2em;
 		font-weight: 550;
 	}
 	h2{
@@ -653,6 +652,17 @@ form button{
 		margin-bottom: 5%;
 	}
 
+.buttonsubscribe{
+	padding: 6%;
+	letter-spacing: 0.05em;
+  	border: 2px solid #ffffff;
+  	
+}
+
+.buttonsubscribe a{
+	font-size: 1.5em;
+	border: 2px solid #ffffff;
+}
 
 .explorebutton{
 	text-align: center;
@@ -700,12 +710,11 @@ h4{
 	margin-left: 30%;
 }
 
-
 p{
-	font-size: 0.7em;
+	font-size: 0.5em;
 	text-align: center;
-	letter-spacing: 0.08em;
-	margin-bottom: 5%;
+	letter-spacing: 0.05em;
+	margin-bottom: 4%;
 	
 }
 
@@ -726,12 +735,20 @@ p{
 
 
 /*blog page*/
+#blogimage{
+	margin: 4% 4% 4% 0.2%;
+	height: 15em;
+}
+
+
+
 #content{
 	width: cover;
 	margin-right: 2%;
 	margin-left: 2%;
 	padding: 2%;
-	height: 85em;
+	height: 80em;
+	vertical-align: center;
 }
 
 div{
@@ -741,9 +758,9 @@ div{
 .collumn1{
 	float: left;
 	display: block;
-	width: 25%;
+	width: 20%;
 	margin: 3%;
-	height: 8em;
+	height: 85em;
 	padding: 0.5em;
 }
 
@@ -751,7 +768,7 @@ div{
 .collumn2{
 	float: left;
 	display: block;
-	width: 25%;
+	width: 20%;
 	margin: 3%;
 	height: 85em;
 	padding: 0.5em;
@@ -760,19 +777,19 @@ div{
 .collumn3{
 	float: left;
 	display: block;
-	width: 25%;
+	width: 20%;
 	margin: 3%;
 	height: 85em;
 	padding: 0.5em;
 }
 .contentsq{
-	width: 95%;
-	margin: 6% 2%;
+	width: 90%;
+	margin: 4% 1.5%;
 	display: block;
 	border: 0.3em;
 	border-style: solid;
 	border-color: #DDDDE1;
-	height: 23em;
+	height: 18em;
 	float: none;
 	padding: 2%;
 }
