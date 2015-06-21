@@ -980,6 +980,15 @@ p{
 	}
 
 
+footer li{
+	line-height: 1.2em;
+	letter-spacing: 0.1em;
+	display: block;
+	font-size: 1em;
+	padding-left: 80%;
+	font-weight: 2em;
+}
+
 /*blog page*/
 #blogimage{
 	margin: 4% 4% 4% 0.2%;
