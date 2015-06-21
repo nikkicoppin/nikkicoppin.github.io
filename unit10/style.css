@@ -944,13 +944,13 @@ h4{
 }
 
 .nikki img{
-	width: 18%;
+	width: 20%;
 	margin: 0 auto;
 	display: block;
 }
 #text{
 	float: center;
-	width: 30%;
+	width: 20%;
 	margin-right: 30%;
 	margin-top: 3%;
 	margin-left: 30%;
@@ -1056,9 +1056,12 @@ div{
 
 h5{
 	line-height: 1em;
-	font-size: 1em;
+	font-size: 0.6em;
 }
 
+p{
+	font-size: 0.6em;
+}
 /*contact page*/
 div{
 	display: block;
