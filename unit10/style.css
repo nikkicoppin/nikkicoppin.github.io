@@ -986,6 +986,13 @@ p{
 	height: 15em;
 }
 
+h3{
+	font-size: 2em;
+		margin: 0;
+		padding: 0;
+		line-height: 1.5em;
+		font-weight: 550;
+}
 
 
 #content{
@@ -993,7 +1000,7 @@ p{
 	margin-right: 2%;
 	margin-left: 2%;
 	padding: 2%;
-	height: 80em;
+	height: 55em;
 	vertical-align: center;
 }
 
@@ -1005,8 +1012,8 @@ div{
 	float: left;
 	display: block;
 	width: 20%;
-	margin: 3%;
-	height: 85em;
+	margin: 2%;
+	height: 60em;
 	padding: 0.5em;
 }
 
@@ -1015,8 +1022,8 @@ div{
 	float: left;
 	display: block;
 	width: 20%;
-	margin: 3%;
-	height: 85em;
+	margin: 2%;
+	height: 60em;
 	padding: 0.5em;
 }
 
@@ -1024,8 +1031,8 @@ div{
 	float: left;
 	display: block;
 	width: 20%;
-	margin: 3%;
-	height: 85em;
+	margin: 2%;
+	height: 60em;
 	padding: 0.5em;
 }
 .contentsq{
@@ -1035,7 +1042,7 @@ div{
 	border: 0.3em;
 	border-style: solid;
 	border-color: #DDDDE1;
-	height: 18em;
+	height: 14em;
 	float: none;
 	padding: 2%;
 }
@@ -1045,6 +1052,11 @@ div{
 	vertical-align: center;
 	margin: 0.5%
 
+}
+
+h5{
+	line-height: 1em;
+	font-size: 1em;
 }
 
 /*contact page*/
