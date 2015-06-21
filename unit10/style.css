@@ -943,6 +943,11 @@ h4{
 	padding: 0 auto;
 }
 
+
+.nikki{
+	height: 30em;
+}
+
 .nikki img{
 	width: 20%;
 	margin: 0 auto;
@@ -982,11 +987,10 @@ p{
 
 footer li{
 	line-height: 1.2em;
-	letter-spacing: 0.1em;
 	display: block;
 	font-size: 1em;
-	padding-left: 80%;
-	font-weight: 2em;
+	padding-left: 70%;
+	font-weight: 1.5em;
 }
 
 /*blog page*/
