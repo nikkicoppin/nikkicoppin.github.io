@@ -877,15 +877,23 @@ form button{
 		float: left;
 		display: block;
 		letter-spacing: 0.1em;
-		width: 40%;
+		width: 30%;
 		list-style: none;
 	}
 
+	nav li{
+		width: 30%;
+	}
+
+	nav a{
+		float: none;
+		display: block;
+	}
+
 	h1{
-		font-size: 1em;
+		font-size: 2em;
 		margin: 0;
 		padding: 0;
-		width: 40%;
 		line-height: 1.5em;
 		font-weight: 550;
 	}
@@ -922,7 +930,6 @@ form button{
 .nikki{
 	width: cover;
 	background-color: #ffffff;
-	height: 15em;
 	margin-right: 10%;
 	margin-left: 10%;
 }
