@@ -938,6 +938,7 @@ form button{
 h4{
 	font-size: 3em;
 	color: #5C5C5C;
+	line-height: 1.5em;
 	text-align: center;
 	padding: 0 auto;
 }
@@ -964,17 +965,17 @@ p{
 }
 
 	.footerlogo a{
-		font-size: 0.5em;
+		font-size: 0.8em;
 		line-height: 1.8em;
 		color: black;
 		padding-left: 4%;
+
 		text-decoration: none;
 	}
 
 	.footerlogo p{
-		font-size: 0.8em;
+		font-size: 0.3em;
 		padding-left: 4%;
-		margin-top: 0%;
 
 	}
 
