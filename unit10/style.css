@@ -945,7 +945,7 @@ h4{
 
 
 .nikki{
-	height: 30em;
+	height: 35em;
 }
 
 .nikki img{
@@ -974,12 +974,11 @@ p{
 		line-height: 1.8em;
 		color: black;
 		padding-left: 4%;
-
 		text-decoration: none;
 	}
 
 	.footerlogo p{
-		font-size: 0.3em;
+		font-size: 0.2em;
 		padding-left: 4%;
 
 	}
