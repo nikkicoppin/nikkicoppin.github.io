@@ -888,6 +888,7 @@ form button{
 	nav a{
 		float: none;
 		display: block;
+		font-size: 0.8em;
 	}
 
 	h1{
@@ -910,7 +911,7 @@ form button{
 }
 
 .buttonsubscribe a{
-	font-size: 1em;
+	font-size: 0.8em;
 	border: 2px solid #ffffff;
 }
 
